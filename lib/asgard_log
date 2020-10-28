@@ -1,0 +1,46 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\sharvinder\Documents\ventechgmi-ventech-foundation-code-generator-7a13c253f7e4> npm run doinstall
+
+> @ventech-node-foundation/generator@0.1.0 doinstall C:\Users\sharvinder\Documents\ventechgmi-ventech-foundation-code-generator-7a13c253f7e4
+> npm run-script clean && npm install && npm run-script build && npm run-script install-global && chalk green bold "Command asgard-gen successfully installed"
+
+
+> @ventech-node-foundation/generator@0.1.0 clean C:\Users\sharvinder\Documents\ventechgmi-ventech-foundation-code-generator-7a13c253f7e4
+> rimraf dist
+
+npm WARN deprecated @types/inversify@2.0.33: This is a stub types definition for inversify (http://inversify.io). inversify provides its own type definitions, so you don't need @types/inversify installed!
+npm WARN deprecated @types/nock@11.1.0: This is a stub types definition. nock provides its own type definitions, so you do not need this installed.
+npm WARN deprecated @types/pg-promise@5.4.3: This is a stub types definition for pg-promise (https://github.com/vitaly-t/pg-promise). pg-promise provides its own type definitions, so you don't need @types/pg-promise installed!
+npm WARN deprecated @types/log4js@2.3.5: This is a stub types definition for log4js (https://github.com/nomiddlename/log4js-node). log4js provides its own type definitions, so you don't need @types/log4js installed!
+npm WARN deprecated @types/handlebars@4.1.0: This is a stub types definition. handlebars provides its own type definitions, so you do not need this installed.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/@ventech-common%2fdata-access - Not found
+npm ERR! 404
+npm ERR! 404  '@ventech-common/data-access@0.0.1' is not in the npm registry.
+npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+npm ERR! 404 It was specified as a dependency of 'ventechgmi-ventech-foundation-code-generator-7a13c253f7e4'
+npm ERR! 404
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\sharvinder\AppData\Roaming\npm-cache\_logs\2020-08-10T16_28_58_297Z-debug.log
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ventech-node-foundation/generator@0.1.0 doinstall: `npm run-script clean && npm install && npm run-script build && npm run-script install-global && chalk green bold "Command asgard-gen successfully installed"`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ventech-node-foundation/generator@0.1.0 doinstall script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\sharvinder\AppData\Roaming\npm-cache\_logs\2020-08-10T16_28_58_430Z-debug.log
